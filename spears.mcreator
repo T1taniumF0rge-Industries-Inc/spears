@@ -1,0 +1,329 @@
+{
+  "mod_elements": [
+    {
+      "name": "WoodenSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spears/item/WoodenSpearItem.java",
+          "src/main/resources/assets/spears/items/wooden_spear.json",
+          "src/main/resources/assets/spears/models/item/wooden_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "SpearRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/spears/procedures/SpearRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "InvisibleProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spears/entity/InvisibleProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/advancement/recipes/wooden_spear_recipe.json",
+          "src/main/resources/data/spears/recipe/wooden_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spears/item/StoneSpearItem.java",
+          "src/main/resources/assets/spears/models/item/stone_spear.json",
+          "src/main/resources/assets/spears/items/stone_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/advancement/recipes/stone_spear_recipe.json",
+          "src/main/resources/data/spears/recipe/stone_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spears/models/item/copper_spear.json",
+          "src/main/java/net/mcreator/spears/item/CopperSpearItem.java",
+          "src/main/resources/assets/spears/items/copper_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/recipe/copper_spear_recipe.json",
+          "src/main/resources/data/spears/advancement/recipes/copper_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spears/models/item/gold_spear.json",
+          "src/main/java/net/mcreator/spears/item/GoldSpearItem.java",
+          "src/main/resources/assets/spears/items/gold_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/advancement/recipes/gold_spear_recipe.json",
+          "src/main/resources/data/spears/recipe/gold_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spears/item/DiamondSpearItem.java",
+          "src/main/resources/assets/spears/items/diamond_spear.json",
+          "src/main/resources/assets/spears/models/item/diamond_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/recipe/diamond_spear_recipe.json",
+          "src/main/resources/data/spears/advancement/recipes/diamond_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spears/item/NetheriteSpearItem.java",
+          "src/main/resources/assets/spears/models/item/netherite_spear.json",
+          "src/main/resources/assets/spears/items/netherite_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/recipe/netherite_spear_recipe.json",
+          "src/main/resources/data/spears/advancement/recipes/netherite_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lunge",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spears/enchantment/lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "SpearEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/spears/procedures/SpearEntitySwingsItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SpearToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/spears/procedures/SpearToolInHandTickProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SpearLungeCooldown",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:NetheriteSpear",
+      "~CUSTOM:DiamondSpear",
+      "~CUSTOM:GoldSpear",
+      "~CUSTOM:CopperSpear",
+      "~CUSTOM:StoneSpear",
+      "~CUSTOM:WoodenSpear"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Lunge"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Lunge"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Lunge"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.spears.wooden_spear": "Wooden Spear",
+      "item.spears.stone_spear": "Stone Spear",
+      "item.spears.copper_spear": "Copper Spear",
+      "item.spears.gold_spear": "Gold Spear",
+      "item.spears.diamond_spear": "Diamond Spear",
+      "item.spears.netherite_spear": "Netherite Spear",
+      "enchantment.spears.lunge": "Lunge"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/spears/init/SpearsModItems.java",
+      "src/main/java/net/mcreator/spears/init/SpearsModEntityRenderers.java",
+      "src/main/java/net/mcreator/spears/init/SpearsModEntities.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/spears/network/SpearsModVariables.java",
+      "src/main/java/net/mcreator/spears/init/SpearsModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/spears/SpearsMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spears",
+    "modName": "Spears",
+    "version": "1.0.0",
+    "author": "Polar",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.spears"
+  },
+  "mcreatorVersion": 202500345720
+}

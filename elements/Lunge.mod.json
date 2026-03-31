@@ -1,0 +1,37 @@
+{
+  "_fv": 79,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Lunge",
+    "supportedSlots": "any",
+    "weight": 5,
+    "anvilCost": 10,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:WoodenSpear"
+      },
+      {
+        "value": "CUSTOM:StoneSpear"
+      },
+      {
+        "value": "CUSTOM:CopperSpear"
+      },
+      {
+        "value": "CUSTOM:GoldSpear"
+      },
+      {
+        "value": "CUSTOM:DiamondSpear"
+      },
+      {
+        "value": "CUSTOM:NetheriteSpear"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
